@@ -1,0 +1,39 @@
+/* Common Css Utilties */
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+ /* Body Css */
+body{
+    position: relative;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Book Cover Image Sizing */
+main img{
+    width: 300px;
+    height: 400px;
+}
+
+/* Centering the search bar */
+.search-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Card styles */
+.card{
+    background-color: white;
+    color: black;
+}
